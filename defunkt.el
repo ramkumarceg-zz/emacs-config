@@ -14,6 +14,7 @@
 (load "defunkt/theme")
 (load "defunkt/temp_files")
 (load "defunkt/git")
+(load "defunkt/todo")
 
 (vendor 'ack)
 (vendor 'cheat)

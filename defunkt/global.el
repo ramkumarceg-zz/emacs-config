@@ -1,4 +1,4 @@
-(setq-default tab-width 2)
+(setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
 (setq mac-emulate-three-button-mouse nil)
 (setq cua-highlight-region-shift-only t)

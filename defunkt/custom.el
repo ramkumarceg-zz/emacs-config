@@ -17,7 +17,7 @@
  '(js2-strict-missing-semi-warning nil)
  '(ns-tool-bar-display-mode (quote both) t)
  '(ns-tool-bar-size-mode (quote regular) t)
- '(show-paren-mode nil)
+ '(show-paren-mode t)
  '(tab-always-indent t)
  '(tabbar-mode nil nil (tabbar))
  '(visual-line-mode nil t))

@@ -55,7 +55,6 @@
 (setq ns-pop-up-frames nil)
 (textmate-mode)
 
-
 ;;Org
 (add-to-list 'load-path "~/.emacs.d/vendor/org/")
 (require 'org-install)
@@ -74,12 +73,16 @@
 (load "defunkt/theme")
 (load "defunkt/temp_files")
 (load "defunkt/git")
+(load "defunkt/todo")
 
 (vendor 'ack)
-(vendor 'cheat)
 (vendor 'magit)
 (vendor 'gist)
 (vendor 'growl)
+(vendor 'twittering-mode)
 (vendor 'textile-mode)
 (vendor 'textmate)
+(vendor 'whitespace)
 (textmate-mode)
+
+(setq-default fill-column 80)

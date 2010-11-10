@@ -56,5 +56,5 @@
                      (erc-propertize (concat "ERC>") 'read-only t 'rear-nonsticky t 'front-nonsticky t))))
 
 (setq erc-track-exclude-types '("JOIN" "PART" "QUIT" "NICK" "MODE"))
-(setq erc-autojoin-channels-alist '(("freenode.net" "#github" "#fauna")))
+(setq erc-autojoin-channels-alist '(("freenode.net" "#django" "#gunicorn")))
 

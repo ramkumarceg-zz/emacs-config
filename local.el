@@ -12,10 +12,8 @@
 (transient-mark-mode 1) ;; No region when it is not highlighted
 (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
 
-;; Show line-number in the mode line
+;; Show line-number and column in the mode line
 (line-number-mode 1)
-
-;; Show column-number in the mode line
 (column-number-mode 1)
 
 ;;python settings from jesselegg
@@ -63,15 +61,11 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 
-(when (file-exists-p ".passwords") (load ".passwords"))
-
-(load "defunkt/lisp")
 (load "defunkt/global")
 (load "defunkt/defuns")
 (load "defunkt/bindings")
 (load "defunkt/modes")
 (load "defunkt/theme")
-(load "defunkt/temp_files")
 (load "defunkt/git")
 (load "defunkt/todo")
 
@@ -79,8 +73,6 @@
 (vendor 'magit)
 (vendor 'gist)
 (vendor 'growl)
-(vendor 'twittering-mode)
-(vendor 'textile-mode)
 (vendor 'textmate)
 (vendor 'whitespace)
 (textmate-mode)
